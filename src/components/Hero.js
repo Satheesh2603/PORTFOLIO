@@ -6,10 +6,10 @@ export default function Hero() {
     const config = {
         subtitle: 'I\'m a Full-stack developer',
         social: {
-            linkedin: 'https://www.linkedin.com/in/satheesh-kumar-t/', // Update with actual LinkedIn from resume
-            github: 'https://github.com/Satheesh2603', // Update with actual GitHub from resume
+            linkedin: 'https://www.linkedin.com/in/satheesh-kumar-t/',
+            github: 'https://github.com/Satheesh2603',
             email: 'mailto:t.satheesh2003@gmail.com',
-            phone: 'tel:+919940847107' // Add actual phone number if available
+            phone: 'tel:+919940847107'
         }
     }
 
@@ -39,7 +39,7 @@ export default function Hero() {
                     <div className="flex space-x-6 pt-4">
                         <a 
                             href={config.social.linkedin} 
-                            className="text-gray-400 hover:text-blue-400 transition-all duration-300 p-2 rounded-full border border-gray-700 hover:border-blue-400 hover:bg-gray-800"
+                            className="text-[#0077B5] hover:bg-[#0077B5]/10 transition-all duration-300 p-2 rounded-full border border-[#0077B5]/30 hover:border-[#0077B5]"
                             aria-label="LinkedIn"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -48,7 +48,7 @@ export default function Hero() {
                         </a>
                         <a 
                             href={config.social.github} 
-                            className="text-gray-400 hover:text-blue-400 transition-all duration-300 p-2 rounded-full border border-gray-700 hover:border-blue-400 hover:bg-gray-800"
+                            className="text-gray-300 hover:bg-gray-300/10 transition-all duration-300 p-2 rounded-full border border-gray-300/30 hover:border-gray-300"
                             aria-label="GitHub"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -57,18 +57,18 @@ export default function Hero() {
                         </a>
                         <a 
                             href={config.social.email} 
-                            className="text-gray-400 hover:text-blue-400 transition-all duration-300 p-2 rounded-full border border-gray-700 hover:border-blue-400 hover:bg-gray-800"
+                            className="text-[#EA4335] hover:bg-[#EA4335]/10 transition-all duration-300 p-2 rounded-full border border-[#EA4335]/30 hover:border-[#EA4335]"
                             aria-label="Email"
                         >
                             <AiOutlineMail size={24} />
                         </a>
-                        <a 
-                            href={config.social.phone} 
-                            className="text-gray-400 hover:text-blue-400 transition-all duration-300 p-2 rounded-full border border-gray-700 hover:border-blue-400 hover:bg-gray-800"
-                            aria-label="Phone"
-                        >
-                            <AiOutlinePhone size={24} />
-                        </a>
+                       <a 
+    href={config.social.phone} 
+    className="text-[#25D366] hover:bg-[#25D366]/10 transition-all duration-300 p-2 rounded-full border border-[#25D366]/30 hover:border-[#25D366]"
+    aria-label="Phone"
+>
+    <AiOutlinePhone size={24} />
+</a>
                     </div>
                 </div>
                 
